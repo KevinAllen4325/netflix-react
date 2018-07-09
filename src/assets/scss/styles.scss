@@ -14,7 +14,7 @@ $gridHeight: 213.5px / (16/9);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: initial;
   -webkit-transform: translateZ(0) scale(1.0, 1.0);}
 
 body{
@@ -202,6 +202,7 @@ body{
           position: relative;
           cursor: pointer;
           z-index:10;
+          -webkit-transform-style: preserve-3d;
           @include transition(margin, .4s, ease);
           -webkit-transform: perspective(1000px);
           &:hover{
@@ -221,6 +222,7 @@ body{
             }
           }
           .transform-me{
+            -webkit-transform-style: preserve-3d;
             img{
               width: 213.5px;
               margin: 0 2px;
