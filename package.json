@@ -2,7 +2,7 @@
   "name": "netflix",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/KevinAllen4325/netflix-react.git",
+  "homepage": "https://github.com/KevinAllen4325/netflix-react",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "jquery": "^3.3.1",
