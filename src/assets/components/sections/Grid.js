@@ -4,12 +4,13 @@ class Grid extends React.Component{
     render() {
         const {image, title, match, rating, duration, desc, Starring, genre} = this.props.details;
         return(
-            <div className="grid-item">
+            <a className="grid-item">
+                <div className="grid-overlay"></div>
                 <div className="transform-me">
                     <img src={image} alt={title} />
                 </div>
                 <div className="movie-details">
-                    <div className="grid-overlay"></div>
+
                     <p className="grid-title">{title}</p>
                     <p className="grid-sub">
                         <span className="green">{match} Match</span>
@@ -17,7 +18,7 @@ class Grid extends React.Component{
                         <span className="duration">{duration}</span>
                     </p>
                 </div>
-            </div>
+            </a>
         )
     }
 }
