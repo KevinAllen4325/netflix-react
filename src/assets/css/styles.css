@@ -6,7 +6,7 @@
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-font-smoothing: subpixel-antialiased !important; }
+  -webkit-font-smoothing: antialiased !important; }
 
 a {
   text-decoration: none;
@@ -240,11 +240,11 @@ body {
             align-items: center;
             -ms-flex-pack: end;
             justify-content: flex-end;
-            -webkit-transition: opacity 0.5s ease;
-            -moz-transition: opacity 0.5s ease;
-            -ms-transition: opacity 0.5s ease;
-            -o-transition: opacity 0.5s ease;
-            transition: opacity 0.5s ease;
+            -webkit-transition: opacity 0.3s ease-out;
+            -moz-transition: opacity 0.3s ease-out;
+            -ms-transition: opacity 0.3s ease-out;
+            -o-transition: opacity 0.3s ease-out;
+            transition: opacity 0.3s ease-out;
             transform: translateZ(0);
             padding-bottom: 30px; }
             .movie-container .movie-sections .sections .grid .grid-item .movie-details p {

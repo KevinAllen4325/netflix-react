@@ -16,7 +16,7 @@ $gridHeight: 213.5px / (16/9);
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-font-smoothing: subpixel-antialiased!important;
+  -webkit-font-smoothing: antialiased!important;
 }
 a{
   text-decoration:none;
@@ -277,7 +277,7 @@ body{
             align-items: center;
             -ms-flex-pack: end;
             justify-content: flex-end;
-            @include transition(opacity, .5s, ease);
+            @include transition(opacity, .3s, ease-out);
             transform: translateZ(0);
             padding-bottom:30px;
             p{
