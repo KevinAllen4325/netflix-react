@@ -206,12 +206,6 @@ body {
             transform: scale(1.7) rotate(0.0001deg); }
             .movie-container .movie-sections .sections .grid .grid-item:hover .grid-overlay, .movie-container .movie-sections .sections .grid .grid-item:hover .movie-details {
               opacity: 1; }
-            .movie-container .movie-sections .sections .grid .grid-item:hover .movie-details {
-              -webkit-transform: scale(0.7);
-              -moz-transform: scale(0.7);
-              -ms-transform: scale(0.7);
-              -o-transform: scale(0.7);
-              transform: scale(0.7); }
           .movie-container .movie-sections .sections .grid .grid-item .transform-me {
             image-rendering: optimizeQuality;
             transition: -webkit-transform 0.6s ease-out;
@@ -246,19 +240,22 @@ body {
             align-items: center;
             -ms-flex-pack: end;
             justify-content: flex-end;
-            -webkit-transition: all 0.5s ease-out;
-            -o-transition: all 0.5s ease-out;
-            transition: all 0.5s ease-out;
-            transform: translateZ(0); }
+            -webkit-transition: opacity 0.5s ease;
+            -moz-transition: opacity 0.5s ease;
+            -ms-transition: opacity 0.5s ease;
+            -o-transition: opacity 0.5s ease;
+            transition: opacity 0.5s ease;
+            transform: translateZ(0);
+            padding-bottom: 30px; }
             .movie-container .movie-sections .sections .grid .grid-item .movie-details p {
               color: white;
-              font-size: 11px;
+              font-size: 9px;
               text-shadow: 2px 1px 2px black; }
               .movie-container .movie-sections .sections .grid .grid-item .movie-details p:first-of-type {
                 font-weight: bold;
                 letter-spacing: .5px;
                 margin-bottom: 20px;
-                font-size: 12px; }
+                font-size: 9px; }
               .movie-container .movie-sections .sections .grid .grid-item .movie-details p .green {
                 color: #40B95F;
                 margin-right: 5px;
