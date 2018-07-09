@@ -1,6 +1,13 @@
+import tlj from '../src/assets/img/trending/TLJ.jpg';
+import lk from '../src/assets/img/trending/LK.jpg';
+import to from '../src/assets/img/trending/TO.jpg';
+import par from '../src/assets/img/trending/PandR.jpg';
+import thor from '../src/assets/img/trending/TR.jpg';
+import d from '../src/assets/img/trending/D.jpg';
+
 const movies = {
     tlj: {
-        image: '/img/trending/TLJ.jpg',
+        image: tlj,
         title: "Star Wars: Episode VIII: The Last Jedi",
         match: '98%',
         rating: 'PG-13',
@@ -11,7 +18,7 @@ const movies = {
 
     },
     lukeCage: {
-        image: '/img/trending/LK.jpg',
+        image: lk,
         title: "Marvel's Luke Cage",
         match: '93%',
         rating: 'TV-MA',
@@ -21,7 +28,7 @@ const movies = {
         genre: 'Action, Crime, Drama',
     },
     theOffice: {
-        image: '/img/trending/TO.jpg',
+        image: to,
         title: "The Office",
         match: '100%',
         rating: 'TV-14',
@@ -31,7 +38,7 @@ const movies = {
         genre: 'Comedy',
     },
     PandR: {
-        image: '/img/trending/PandR.jpg',
+        image: par,
         title: "Parks and Recreation",
         match: '100%',
         rating: 'TV-PG',
@@ -41,7 +48,7 @@ const movies = {
         genre: 'Comedy',
     },
     thor: {
-        image: '/img/trending/TR.jpg',
+        image: thor,
         title: "Thor: Ragnarok",
         match: '98%',
         rating: 'PG-13',
@@ -51,7 +58,7 @@ const movies = {
         genre: 'Action, Adventure, Comedy',
     },
     dexter: {
-        image: '/img/trending/D.jpg',
+        image: d,
         title: "Dexter",
         match: '99%',
         rating: 'TV-MA',
@@ -61,7 +68,7 @@ const movies = {
         genre: 'Crime, Drama, Mystery',
     },
     theOffice2: {
-        image: '/img/trending/TO.jpg',
+        image: to,
         title: "The Office",
         match: '100%',
         rating: 'TV-14',
@@ -71,7 +78,7 @@ const movies = {
         genre: 'Comedy',
     },
     tlj2: {
-        image: '/img/trending/TLJ.jpg',
+        image: tlj,
         title: "Star Wars: Episode VIII: The Last Jedi",
         match: '98%',
         rating: 'PG-13',
@@ -82,7 +89,7 @@ const movies = {
 
     },
     thor2: {
-        image: '/img/trending/TR.jpg',
+        image: thor,
         title: "Thor: Ragnarok",
         match: '98%',
         rating: 'PG-13',
@@ -92,7 +99,7 @@ const movies = {
         genre: 'Action, Adventure, Comedy',
     },
     PandR2: {
-        image: '/img/trending/PandR.jpg',
+        image: par,
         title: "Parks and Recreation",
         match: '100%',
         rating: 'TV-PG',
@@ -102,7 +109,7 @@ const movies = {
         genre: 'Comedy',
     },
     tlj3: {
-        image: '/img/trending/TLJ.jpg',
+        image: tlj,
         title: "Star Wars: Episode VIII: The Last Jedi",
         match: '98%',
         rating: 'PG-13',
@@ -113,7 +120,7 @@ const movies = {
 
     },
     lukeCage2: {
-        image: '/img/trending/LK.jpg',
+        image: lk,
         title: "Marvel's Luke Cage",
         match: '93%',
         rating: 'TV-MA',
@@ -123,7 +130,7 @@ const movies = {
         genre: 'Action, Crime, Drama',
     },
     PandR3: {
-        image: '/img/trending/PandR.jpg',
+        image: par,
         title: "Parks and Recreation",
         match: '100%',
         rating: 'TV-PG',
@@ -133,7 +140,7 @@ const movies = {
         genre: 'Comedy',
     },
     theOffice3: {
-        image: '/img/trending/TO.jpg',
+        image: to,
         title: "The Office",
         match: '100%',
         rating: 'TV-14',
