@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f773fbdc-b6de-4660-886e-b47ea67e8ef1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/.sass-cache/a51649e32c41df124d8c2fde9774be41f6674802/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/.sass-cache/a51649e32c41df124d8c2fde9774be41f6674802/styles.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/components/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/Carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/components/sections/Grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/sections/Grid.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/styles.scss" afterDir="false" />
@@ -20,14 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5530303">
+    <splitter split-orientation="horizontal" split-proportion="0.12689394">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+                <state relative-caret-position="731">
+                  <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -45,7 +40,7 @@
             <entry file="file://$PROJECT_DIR$/src/assets/components/sections/NewReleases.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="289">
-                  <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+                  <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -54,7 +49,7 @@
             <entry file="file://$PROJECT_DIR$/src/assets/components/sections/Grid.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="408">
-                  <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+                  <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -63,7 +58,7 @@
             <entry file="file://$PROJECT_DIR$/src/assets/components/Footer.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="119">
-                  <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="34" />
+                  <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="34" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -90,8 +85,8 @@
           <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/assets/scss/styles.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="335" column="38" selection-start-line="335" selection-start-column="38" selection-end-line="335" selection-end-column="38" />
+                <state relative-caret-position="158">
+                  <caret line="280" column="39" lean-forward="true" selection-start-line="280" selection-start-column="39" selection-end-line="281" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -280,12 +275,12 @@
       <workItem from="1531019999506" duration="3481000" />
       <workItem from="1531023491263" duration="40375000" />
       <workItem from="1531094302906" duration="1835000" />
-      <workItem from="1531101125298" duration="15362000" />
+      <workItem from="1531101125298" duration="16885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61253000" />
+    <option name="totallyTimeSpent" value="62776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1246" y="0" width="1307" height="1047" extended-state="0" />
@@ -297,8 +292,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20132013" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1531676" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20132013" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1531676" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -629,7 +624,7 @@
     <entry file="file://$PROJECT_DIR$/src/assets/components/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="34" />
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -656,28 +651,28 @@
     <entry file="file://$PROJECT_DIR$/src/assets/components/sections/NewReleases.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/components/sections/Grid.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="731">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="335" column="38" selection-start-line="335" selection-start-column="38" selection-end-line="335" selection-end-column="38" />
+        <state relative-caret-position="158">
+          <caret line="280" column="39" lean-forward="true" selection-start-line="280" selection-start-column="39" selection-end-line="281" selection-end-column="35" />
         </state>
       </provider>
     </entry>
