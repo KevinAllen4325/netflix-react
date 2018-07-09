@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f773fbdc-b6de-4660-886e-b47ea67e8ef1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/.sass-cache/a51649e32c41df124d8c2fde9774be41f6674802/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/.sass-cache/a51649e32c41df124d8c2fde9774be41f6674802/styles.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,13 +13,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.12689394">
+    <splitter split-orientation="horizontal" split-proportion="0.6714015">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="731">
+                <state relative-caret-position="119">
                   <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
                 </state>
               </provider>
@@ -79,6 +76,15 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="Helpers.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Helpers.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                  <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -86,8 +92,8 @@
           <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/assets/scss/styles.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+                <state relative-caret-position="634">
+                  <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="212" selection-end-column="57" />
                 </state>
               </provider>
             </entry>
@@ -100,6 +106,7 @@
     <findStrings>
       <find>.carousel .control-next.control-arrow</find>
       <find>.carousel.carousel-slider .control-arrow</find>
+      <find>grid-item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,7 +124,6 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/assets/components/sections/Trending.js" />
         <option value="$PROJECT_DIR$/src/assets/components/sections/Popular.js" />
-        <option value="$PROJECT_DIR$/src/Helpers.js" />
         <option value="$PROJECT_DIR$/src/assets/components/sections/Watch.js" />
         <option value="$PROJECT_DIR$/src/assets/components/sections/NewReleases.js" />
         <option value="$PROJECT_DIR$/src/assets/components/sections/Sections.js" />
@@ -130,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/assets/components/sections/Grid.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/styles.scss" />
+        <option value="$PROJECT_DIR$/src/Helpers.js" />
       </list>
     </option>
   </component>
@@ -276,12 +283,12 @@
       <workItem from="1531019999506" duration="3481000" />
       <workItem from="1531023491263" duration="40375000" />
       <workItem from="1531094302906" duration="1835000" />
-      <workItem from="1531101125298" duration="17705000" />
+      <workItem from="1531101125298" duration="18282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63596000" />
+    <option name="totallyTimeSpent" value="64173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1246" y="0" width="1307" height="1047" extended-state="0" />
@@ -293,8 +300,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20132013" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1531676" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20132013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1531676" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -570,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/components/sections/Watch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -665,15 +665,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
+        <state relative-caret-position="119">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="634">
+          <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="212" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
         </state>
       </provider>
     </entry>

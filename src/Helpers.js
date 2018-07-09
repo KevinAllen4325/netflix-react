@@ -5,7 +5,7 @@ export function moveBack(c){
 
  if(margin < 0){
     margin += 217.5;
-    $('.'+ c +' .grid').css('margin-left', margin);
+    $('.'+ c +' .grid').animate({marginLeft: [margin, "swing"]}, 200);
     if(margin > 0){
         $('.'+ c +' .grid').css('margin-left', '0')
     }
@@ -25,7 +25,7 @@ export function moveForward(c){
 
     if(margin <= 0 && margin >= divWidth){
         margin -= 217.5;
-        $('.'+ c +' .grid').css('margin-left', margin)
+        $('.'+ c +' .grid').animate({marginLeft: [margin, "swing"]}, 200);
     }
 
 }
