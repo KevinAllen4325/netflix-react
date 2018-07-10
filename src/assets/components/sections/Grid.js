@@ -1,10 +1,12 @@
 import React from 'react';
-
 class Grid extends React.Component{
+
     render() {
         const {image, title, match, rating, duration, desc, Starring, genre} = this.props.details;
+        const newTitle = title.replace(/[^A-Z0-9]/ig, "_");
+
         return(
-            <a className="grid-item">
+            <a className={`grid-item ${newTitle}`}>
                 <div className="grid-overlay"></div>
                 <div className="transform-me">
                     <img src={image} alt={title} />

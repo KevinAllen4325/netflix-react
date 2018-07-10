@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from '../img/Netflix-logo.png';
-import {Link} from 'react-router-dom';
-import Router from './Routes';
+import { Link } from 'react-router-dom';
 
 class Header extends React.Component{
     render(){
@@ -12,12 +11,13 @@ class Header extends React.Component{
               </Link>
               <nav>
                   <ul>
-                      <li><strong>Home</strong></li>
-                      <li>TV Shows</li>
-                      <li>Movies</li>
-                      <li>Originals</li>
-                      <li>Recently Added</li>
-                      <li>My List</li>
+                      <li><Link to="/"><strong>Home</strong></Link></li>
+                      <li><a>TV Shows</a></li>
+                      <li><a>Movies</a></li>
+                      <li><a>Originals</a></li>
+                      <li><a>Recently Added</a></li>
+                      <li><a>My List</a></li>
+                      <li><Link to="/registration">Register</Link></li>
                   </ul>
               </nav>
 

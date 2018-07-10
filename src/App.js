@@ -4,9 +4,9 @@ import './assets/css/carousel.css'
 import './assets/css/styles.css';
 import Header from './assets/components/Header';
 import Footer from './assets/components/Footer';
-import MovieCarousel from './assets/components/Carousel'
-import Sections from './assets/components/sections/Sections'
-import { BrowserRouter as Router } from 'react-router-dom';
+import Homepage from './assets/components/Homepage';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Registration from "./assets/components/sections/registration/Register";
 
 class App extends React.Component {
   render() {
@@ -15,8 +15,8 @@ class App extends React.Component {
           <div className="main">
               <div className="container">
                   <Header />
-                  <MovieCarousel/>
-                  <Sections />
+                  <Route exact path="/" component={Homepage} />
+                  <Route exact path="/registration" component={Registration} />
                   <Footer />
               </div>
           </div>

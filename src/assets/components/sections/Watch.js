@@ -13,8 +13,6 @@ class Watch extends React.Component{
                                   details={this.props.movies[key]}
                                   index={key}
                             />
-
-
                         )
                     })}
                 </div>
