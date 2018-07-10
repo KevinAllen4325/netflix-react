@@ -55,16 +55,16 @@ class Registration extends React.Component{
                             nextStep={this.nextStep}
                             account={this.accountInfo}
                             state={this.state.account}
-                        />;
+                        />
                     </Fade>
-                )
+                );
             case 4:
                 return(
                     <Fade>
                         <Slide4 name={this.state.account.firstName}
-                                plan={this.state.plan}/>;
+                                plan={this.state.plan}/>
                     </Fade>
-                )
+                );
         }
     };
 
