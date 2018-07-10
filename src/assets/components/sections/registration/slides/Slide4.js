@@ -16,7 +16,7 @@ class Slide4 extends React.Component{
                     but don't worry, we wont charge you until your trials up.
                 </p>
 
-                <Link to="/" className="seePlans continue">BROWSE MOVIES</Link>
+                <Link to="/netflix-react/" className="seePlans continue">BROWSE MOVIES</Link>
 
             </div>
         )
