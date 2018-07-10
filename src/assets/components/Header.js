@@ -6,12 +6,12 @@ class Header extends React.Component{
     render(){
         return (
           <div className="header">
-              <Link to="/">
+              <Link to="/netflix-react/">
                   <img src={Logo} alt='Netflix Logo'/>
               </Link>
               <nav>
                   <ul>
-                      <li><Link to="/"><strong>Home</strong></Link></li>
+                      <li><Link to="/netflix-react/"><strong>Home</strong></Link></li>
                       <li><a>TV Shows</a></li>
                       <li><a>Movies</a></li>
                       <li><a>Originals</a></li>
