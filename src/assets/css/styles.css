@@ -165,7 +165,15 @@ body {
   .movie-container .movie-sections {
     margin-left: 4%; }
     .movie-container .movie-sections .section {
-      position: relative; }
+      position: relative;
+      -webkit-user-select: none;
+      /* Safari */
+      -moz-user-select: none;
+      /* Firefox */
+      -ms-user-select: none;
+      /* IE10+/Edge */
+      user-select: none;
+      /* Standard */ }
     .movie-container .movie-sections .sections {
       margin: 32px 0 65px; }
       .movie-container .movie-sections .sections .title {
