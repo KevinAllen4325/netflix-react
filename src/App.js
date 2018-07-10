@@ -7,6 +7,7 @@ import Footer from './assets/components/Footer';
 import Homepage from './assets/components/Homepage';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Registration from "./assets/components/sections/registration/Register";
+import NotFound from "./assets/components/NotFound";
 
 class App extends React.Component {
   render() {
@@ -17,6 +18,7 @@ class App extends React.Component {
                   <Header />
                   <Route exact path="/netflix-react/" component={Homepage} />
                   <Route exact path="/registration" component={Registration} />
+                  <Route component={NotFound} />
                   <Footer />
               </div>
           </div>
