@@ -41,30 +41,18 @@ class Registration extends React.Component{
                 return <Slide1
                     nextStep={this.nextStep}/>;
             case 2:
-                return(
-                    <Fade>
-                        <Slide2
-                            nextStep={this.nextStep}
-                            plan={this.plan}/>
-                    </Fade>
-                );
+                return <Slide2
+                    nextStep={this.nextStep}
+                    plan={this.plan}/>;
             case 3:
-                return(
-                    <Fade>
-                        <Slide3
-                            nextStep={this.nextStep}
-                            account={this.accountInfo}
-                            state={this.state.account}
-                        />
-                    </Fade>
-                );
+                return <Slide3
+                    nextStep={this.nextStep}
+                    account={this.accountInfo}
+                    state={this.state.account}
+                    />;
             case 4:
-                return(
-                    <Fade>
-                        <Slide4 name={this.state.account.firstName}
-                                plan={this.state.plan}/>
-                    </Fade>
-                );
+                return <Slide4 name={this.state.account.firstName}
+                               plan={this.state.plan}/>;
         }
     };
 
