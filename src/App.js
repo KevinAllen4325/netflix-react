@@ -15,8 +15,8 @@ class App extends React.Component {
           <div className="main">
               <div className="container">
                   <Header />
-                  <Route exact path="/" component={Homepage} />
-                  <Route exact path="/registration" component={Registration} />
+                  <Route exact path="/netflix-react/" component={Homepage} />
+                  <Route exact path="/netflix-react/registration" component={Registration} />
                   <Footer />
               </div>
           </div>
