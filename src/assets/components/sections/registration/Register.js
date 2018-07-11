@@ -4,7 +4,6 @@ import Slide1 from './slides/Slide1'
 import Slide2 from './slides/Slide2'
 import Slide3 from './slides/Slide3'
 import Slide4 from './slides/Slide4'
-import Fade from 'react-reveal/Fade';
 class Registration extends React.Component{
     state = {
         step: 1,

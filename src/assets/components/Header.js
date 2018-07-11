@@ -17,7 +17,7 @@ class Header extends React.Component{
                       <li><a>Originals</a></li>
                       <li><a>Recently Added</a></li>
                       <li><a>My List</a></li>
-                      <li><Link to="/registration">Register</Link></li>
+                      <li><Link to="/netflix-react/registration">Register</Link></li>
                   </ul>
               </nav>
 

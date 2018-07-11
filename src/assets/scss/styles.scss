@@ -5,6 +5,11 @@
   -o-transition: $prop $time $ease;
   transition: $prop $time $ease;
 }
+@mixin flex(){
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
 
 $gridHeight: 213.5px / (16/9);
 
@@ -505,5 +510,11 @@ footer{
 
     }
   }
+}
+
+.notFound{
+  font-size: 60px!important;
+  height: calc(100vh - 120px)!important;
+  @include flex();
 }
 

@@ -1,9 +1,12 @@
 import React from 'react';
-import { Redirect, Switch } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 class NotFound extends React.Component{
     render(){
         return(
-            <Redirect to="/netflix-react"/>
+            <div className="notFound">
+                404: Page Not Found
+                <Link to="/netflix-react">Return home</Link>
+            </div>
         )
     }
 }
