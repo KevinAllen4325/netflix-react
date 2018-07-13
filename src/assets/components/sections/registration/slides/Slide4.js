@@ -11,8 +11,8 @@ class Slide4 extends React.Component{
         const plan = this.props.plan;
         return (
             <div className='slide1 slide4'>
-                <p className="headline">Congratulations, {name}!<br />
-                    You've registered for the {plan} plan, <br />
+                <p className="headline">Congratulations, <span className="red">{name}</span>!<br />
+                    You've registered for the <span className="red">{plan}</span> plan, <br />
                     but don't worry, we wont charge you until your trials up.
                 </p>
 

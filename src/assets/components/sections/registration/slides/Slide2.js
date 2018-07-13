@@ -5,6 +5,14 @@ import {plan} from "../../../../../Helpers";
 class Slide2 extends React.Component{
     sendData = (e) => {
         plan(e)
+    };
+
+    checkPlan = e => {
+        if(this.props.currentPlan === ''){
+            alert('You must select a plan to continue.')
+        } else{
+            this.props.nextStep();
+        }
     }
 
     render(){
@@ -65,7 +73,7 @@ class Slide2 extends React.Component{
                         <p className="premium">Yes</p>
                     </div>
                 </div>
-                <button className="seePlans continue" onClick={this.props.nextStep}>CONTINUE</button>
+                <button className="seePlans continue" onClick={this.checkPlan}>CONTINUE</button>
             </div>
         )
     }

@@ -42,7 +42,8 @@ class Registration extends React.Component{
             case 2:
                 return <Slide2
                     nextStep={this.nextStep}
-                    plan={this.plan}/>;
+                    plan={this.plan}
+                    currentPlan={this.state.plan}/>;
             case 3:
                 return <Slide3
                     nextStep={this.nextStep}

@@ -408,6 +408,8 @@ body {
   .slideContainer .slide4 p {
     line-height: 1.5;
     text-align: left; }
+    .slideContainer .slide4 p .red {
+      color: #e51e25; }
 
 footer {
   max-width: 800px;
