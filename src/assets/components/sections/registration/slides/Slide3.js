@@ -6,9 +6,14 @@ class Slide3 extends React.Component{
     email = React.createRef();
     password = React.createRef();
 
+    validateEmail = email => {
+        const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(String(email).toLowerCase());
+    }
+
     submitForm = (e) =>{
         e.preventDefault();
-
+        let error = [];
         const info = {
             firstName: this.firstName.value,
             lastName: this.lastName.value,
@@ -16,8 +21,29 @@ class Slide3 extends React.Component{
             password: this.password.value,
         };
 
-        this.props.account(info);
-        this.props.nextStep();
+
+        if(info.firstName.length < 3){
+            error.push('\nFirst name must be at least 3 characters')
+        }
+
+        if(info.lastName.length < 3){
+            error.push('\nLast name must be at least 3 characters')
+        }
+
+        if(!this.validateEmail(info.email)){
+            error.push('\nInvalid email address')
+        }
+
+        if(info.password.length < 6){
+            error.push('\nPassword must be at least 6 characters')
+        }
+
+        if(error.length !== 0)
+            alert(error);
+        else{
+            this.props.account(info);
+            this.props.nextStep();
+        }
 
     };
     render(){
