@@ -18,7 +18,7 @@ class Grid extends React.Component{
         }
 
         return(
-            <Link to={{pathname: `/netflix-react/${newTitle}`, state: {movieProps}}} className={`grid-item ${newTitle}`}>
+            <Link to={{pathname: `/netflix-react/movies-shows/${newTitle}`, state: {movieProps}}} className={`grid-item ${newTitle}`}>
                 <div className="grid-overlay"></div>
                 <div className="transform-me">
                     <img src={image} alt={title} />

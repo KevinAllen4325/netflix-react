@@ -2,10 +2,10 @@ import React from 'react';
 
 class Movie extends React.Component{
 
-    render(){
+    render() {
         const {title, duration, userRating, desc, stars, genre, poster} = this.props.location.state.movieProps;
 
-        return(
+        return (
             <div className="movie">
                 <img src={poster} alt={`${title} Poster`}/>
                 <div className="movieInfo">

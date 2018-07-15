@@ -20,7 +20,7 @@ class App extends React.Component {
                   <Header />
                   <Route exact path="/netflix-react/" component={Homepage} />
                   <Route exact path="/netflix-react/registration" component={Registration} />
-                  <Route exact path="/netflix-react/:movieId" component={Movie} />
+                  <Route exact path="/netflix-react/movies-shows/:movieId" component={Movie} />
                   <Footer />
               </div>
           </div>
