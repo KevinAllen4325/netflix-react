@@ -1,18 +1,29 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+
 class Grid extends React.Component{
 
     render() {
-        const {image, title, match, rating, duration, desc, Starring, genre} = this.props.details;
-        const newTitle = title.replace(/[^A-Z0-9]/ig, "_");
+        const {image, title, match, rating, duration, desc, stars, genre, userRating, poster} = this.props.details;
+        const newTitle = title.replace(/[^A-Z0-9]/ig, "");
+
+        const movieProps = {
+            title,
+            duration,
+            userRating,
+            desc,
+            stars,
+            genre,
+            poster
+        }
 
         return(
-            <a className={`grid-item ${newTitle}`}>
+            <Link to={{pathname: `/netflix-react/${newTitle}`, state: {movieProps}}} className={`grid-item ${newTitle}`}>
                 <div className="grid-overlay"></div>
                 <div className="transform-me">
                     <img src={image} alt={title} />
                 </div>
                 <div className="movie-details">
-
                     <p className="grid-title">{title}</p>
                     <p className="grid-sub">
                         <span className="green">{match} Match</span>
@@ -20,7 +31,7 @@ class Grid extends React.Component{
                         <span className="duration">{duration}</span>
                     </p>
                 </div>
-            </a>
+            </Link>
         )
     }
 }

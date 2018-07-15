@@ -488,6 +488,29 @@ body{
   }
 }
 
+.movie{
+  height: calc(100vh - 125px);
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4%;
+  .movieInfo{
+    height: 100%;
+    padding-left: 30px;
+    h1{
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+    p{
+      font-size: 17px;
+      letter-spacing: .75px;
+      padding-bottom: 8px;
+      line-height: 1.25
+    }
+  }
+}
+
 footer{
   max-width: 800px;
   width: 100%;

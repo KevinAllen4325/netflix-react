@@ -1,13 +1,15 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Registration from "./assets/components/sections/registration/Register";
+//CSS
 import './assets/css/normalize.css';
 import './assets/css/carousel.css'
 import './assets/css/styles.css';
+//COMPONENTS
 import Header from './assets/components/Header';
 import Footer from './assets/components/Footer';
 import Homepage from './assets/components/Homepage';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Registration from "./assets/components/sections/registration/Register";
-import NotFound from "./assets/components/NotFound";
+import Movie from './assets/components/Movie';
 
 class App extends React.Component {
   render() {
@@ -18,7 +20,7 @@ class App extends React.Component {
                   <Header />
                   <Route exact path="/netflix-react/" component={Homepage} />
                   <Route exact path="/netflix-react/registration" component={Registration} />
-
+                  <Route exact path="/netflix-react/:movieId" component={Movie} />
                   <Footer />
               </div>
           </div>
