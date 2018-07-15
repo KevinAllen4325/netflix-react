@@ -73,6 +73,30 @@ class Slide2 extends React.Component{
                         <p className="premium">Yes</p>
                     </div>
                 </div>
+                <div className="monthly plan-item">
+                    <p className="first-item">Unlimited movies and TV shoes</p>
+                    <div className="items">
+                        <p className="basic">Yes</p>
+                        <p className="standard">Yes</p>
+                        <p className="premium">Yes</p>
+                    </div>
+                </div>
+                <div className="monthly plan-item">
+                    <p className="first-item">Cancel anytime</p>
+                    <div className="items">
+                        <p className="basic">Yes</p>
+                        <p className="standard">Yes</p>
+                        <p className="premium">Yes</p>
+                    </div>
+                </div>
+                <div className="monthly plan-item">
+                    <p className="first-item">First month free</p>
+                    <div className="items">
+                        <p className="basic">Yes</p>
+                        <p className="standard">Yes</p>
+                        <p className="premium">Yes</p>
+                    </div>
+                </div>
                 <button className="seePlans continue" onClick={this.checkPlan}>CONTINUE</button>
             </div>
         )

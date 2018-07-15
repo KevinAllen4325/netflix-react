@@ -224,7 +224,7 @@ body{
       user-select: none; /* Standard */
     }
     .sections{
-      margin: 32px 0 65px;
+      margin: 25px 0 40px;
       .title{
         color:#e5e5e5;
         font-size: 1.07em;
@@ -437,9 +437,12 @@ body{
       }
     }
     .plan-item{
-      padding:20px 0px;
-      border-bottom: 1px solid #e5e5e514;
+      padding:10px 0px;
+      //border-bottom: 1px solid #e5e5e514;
       display:flex;
+      &:nth-of-type(odd){
+        background: #222222;
+      }
       p{
         font-size: 16px;
         padding: 0 15px;

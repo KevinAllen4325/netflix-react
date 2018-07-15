@@ -188,7 +188,7 @@ body {
       user-select: none;
       /* Standard */ }
     .movie-container .movie-sections .sections {
-      margin: 32px 0 65px; }
+      margin: 25px 0 40px; }
       .movie-container .movie-sections .sections .title {
         color: #e5e5e5;
         font-size: 1.07em;
@@ -375,9 +375,10 @@ body {
           flex-shrink: 0;
           cursor: pointer; }
     .slideContainer .slide2 .plan-item {
-      padding: 20px 0px;
-      border-bottom: 1px solid #e5e5e514;
+      padding: 10px 0px;
       display: flex; }
+      .slideContainer .slide2 .plan-item:nth-of-type(odd) {
+        background: #222222; }
       .slideContainer .slide2 .plan-item p {
         font-size: 16px;
         padding: 0 15px;
