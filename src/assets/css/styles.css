@@ -412,21 +412,18 @@ body {
       color: #e51e25; }
 
 .movie {
-  min-height: calc(100vh - 125px);
-  height: 100%;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 25px 4%; }
-  .movie img {
-    height: 100%; }
   .movie .movieInfo {
     height: 100%;
     padding-left: 30px; }
     .movie .movieInfo h1 {
       letter-spacing: 2px;
-      font-weight: 600; }
+      font-weight: 600;
+      margin-top: 0; }
     .movie .movieInfo p {
       font-size: 17px;
       letter-spacing: .75px;

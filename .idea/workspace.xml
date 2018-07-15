@@ -4,12 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/assets/components/sections/registration/slides/Slide3.js" line="56" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f773fbdc-b6de-4660-886e-b47ea67e8ef1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/.sass-cache/a51649e32c41df124d8c2fde9774be41f6674802/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/.sass-cache/a51649e32c41df124d8c2fde9774be41f6674802/styles.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/styles.scss" afterDir="false" />
-    </list>
+    <list default="true" id="f773fbdc-b6de-4660-886e-b47ea67e8ef1" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +54,8 @@
           <file leaf-file-name="Grid.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/assets/components/sections/Grid.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+                <state relative-caret-position="136">
+                  <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -291,12 +286,12 @@
       <workItem from="1531442339390" duration="753000" />
       <workItem from="1531443552007" duration="1365000" />
       <workItem from="1531493736847" duration="15000" />
-      <workItem from="1531527169676" duration="11331000" />
+      <workItem from="1531527169676" duration="11602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111232000" />
+    <option name="totallyTimeSpent" value="111503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1008" y="0" width="1552" height="1047" extended-state="0" />
@@ -675,20 +670,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/components/sections/Grid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="601">
           <caret line="499" column="17" selection-start-line="499" selection-start-column="17" selection-end-line="499" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/components/sections/Grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

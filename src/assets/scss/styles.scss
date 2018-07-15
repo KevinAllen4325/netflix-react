@@ -489,22 +489,20 @@ body{
 }
 
 .movie{
-  min-height: calc(100vh - 125px);
-  height: 100%;
+  //min-height: calc(100vh - 125px);
+  //height: 100%;
   width: 100%;
   display:flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 25px 4%;
-  img{
-    height: 100%;
-  }
   .movieInfo{
     height: 100%;
     padding-left: 30px;
     h1{
       letter-spacing: 2px;
       font-weight: 600;
+      margin-top:0;
     }
     p{
       font-size: 17px;
